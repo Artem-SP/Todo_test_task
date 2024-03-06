@@ -1,0 +1,27 @@
+.filtersBlock {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-around;
+  font-size: 20px;
+  border-bottom: 2px solid #000;
+
+  .completed {
+    color: green;
+  }
+
+  .active {
+    color: red;
+  }
+}
+
+h3 {
+  display: block;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .filtersBlock {
+    width: 50%;
+    margin: 0 auto 0;
+  }
+}
